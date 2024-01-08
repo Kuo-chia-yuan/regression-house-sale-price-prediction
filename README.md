@@ -41,13 +41,11 @@ class Net(nn.Module):
 
 ## 程式方塊圖
 
-  ![image](https://github.com/Machine-Learning-NYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/7768731c-397d-4bac-affa-c52796d282c6)
-
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/1943d339-e0cd-485f-9bdf-52d2226caa39)
 
 ## loss function 收斂曲線圖
 
-  ![image](https://github.com/Machine-Learning-NYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/52f395f0-535d-42e2-af84-44a363d7a518)
-
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/17f590fc-e5a8-4bbd-897e-7f1bdca86d6e)
 
 ## 畫圖做結果分析
 和 price 有明顯相關性的房屋參數共有以下6項：
@@ -56,26 +54,27 @@ bedrooms、bathrooms、sqft_living、grade、sqft_above、sqft_living15
 其餘房屋參數和 price 無直接相關性
 - bedrooms
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/d35161bc-435d-46b4-9f83-c61196ad9105)
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/7e417b99-05bc-44d9-a4a0-384bfab4eee2)
+
 - bathrooms
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/fa16fb52-22ee-423a-ab16-1050566eafcd)
-  
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/5f3baee7-3127-4133-99fd-c7ce8869cec2)
+
 - sqft_living
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/fd0652e7-3de0-42b1-895f-48ad138a07ca)
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/a5c8281e-1af1-4f9a-ad0d-55863b96309a)
 
 - grade
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/1e91b7d4-a235-4d90-9923-a0f6ff3ff558)
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/8e52448c-2be1-41ff-8358-dafe0eead0f4)
 
 - sqft_above
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/9b183642-a6ef-4295-b90a-0fc4b9be5167)
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/ffb00b87-03cb-4245-b664-bc4c6784ece2)
 
 - sqft_living15
 
-  ![image](https://github.com/MachineLearningNYCU/regression-house-sale-price-prediction-challenge-312605018CYKuo/assets/144798019/79afe1d3-51a3-4e0c-81c1-c60a5588805c)
+  ![image](https://github.com/Kuo-chia-yuan/regression-house-sale-price-prediction/assets/56677419/1af84bd3-a811-4d34-b994-243eda6cdfb0)
 
 ## 討論預測值誤差很大的，是怎麼回事？如何改進？
 train_data 的 loss 約為 124970  
