@@ -2,6 +2,8 @@
 
 ## 介紹
 手刻 Fully Connection Layer，預測房價
+ - input：19 項房屋相關資訊
+ - output：正確房價
 
 ## 作法說明與寫法
 依照 code 順序進行講解：
